@@ -1,0 +1,30 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.todo {
+  text-align: center;
+
+  p, h3 {
+    margin: 0;
+  }
+  &__title {
+    border-top: 2px solid;
+  }
+  &__desc {
+    padding: 0 2rem;
+    word-break: break-word;
+  }
+  &__expiring {
+    padding-right: 4px;
+  }
+  &__edit-btn {
+    display: block;
+    margin: 0 auto 10px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid;
+  }
+}

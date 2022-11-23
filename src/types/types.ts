@@ -1,4 +1,5 @@
-export type todosT = {
+export type todoT = {
+    id: number
     title: string
     desc: string
     done: boolean

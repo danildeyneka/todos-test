@@ -1,0 +1,30 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.todo {
+  text-align: center;
+}
+.todo p,
+.todo h3 {
+  margin: 0;
+}
+.todo__title {
+  border-top: 2px solid;
+}
+.todo__desc {
+  padding: 0 2rem;
+  word-break: break-word;
+}
+.todo__expiring {
+  padding-right: 4px;
+}
+.todo__edit-btn {
+  display: block;
+  margin: 0 auto 10px;
+  background-color: #fff;
+  border: none;
+  border-bottom: 1px solid;
+}
+/*# sourceMappingURL=Todo.css.map */

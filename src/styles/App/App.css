@@ -1,0 +1,23 @@
+:root {
+  font-family: 'Lato', sans-serif;
+  color: #695b27;
+  background-color: #c9edff;
+}
+body {
+  margin: 0;
+}
+.todo {
+  background-color: #fff;
+  width: 500px;
+  min-height: 250px;
+  margin: 0 auto;
+  border: 2px solid #645353;
+  border-top: none;
+}
+.todo h1 {
+  text-align: center;
+  margin-top: 0;
+  padding-top: 20px;
+  color: #ee8a8a;
+}
+/*# sourceMappingURL=App.css.map */
