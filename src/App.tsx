@@ -1,11 +1,12 @@
-import React, {useEffect, useState} from 'react'
+import React, {memo, useEffect, useState} from 'react'
 import './styles/App/App.css'
 import {collection, onSnapshot} from 'firebase/firestore'
 import {db} from './api/firebase'
 import {Todo} from './components/Todo/Todo'
 import {todoT} from './types/types'
+import {NewTodo} from "./components/NewTodo/NewTodo";
 
-const App = () => {
+const App = memo(() => {
     const [todos, setTodos] = useState<todoT[]>([])
 
     useEffect(() => {
@@ -14,15 +15,15 @@ const App = () => {
         })
     }, [])
 
-    return <main className="todo">
+    return <main className="wrapper">
         <h1>Todo List</h1>
-        <button>Add todo? modal mb</button>
+        <NewTodo/>
         <ul>
             {todos.length === 0
-                ? <div>Loading...</div>
+                ? <div className='wrapper__error'>Нет активных задач</div>
                 : todos.map(todo => <Todo t={todo} key={todo.id}/>)}
         </ul>
     </main>
-}
+})
 
 export default App

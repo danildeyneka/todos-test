@@ -1,0 +1,25 @@
+.new-todo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.new-todo input {
+  text-align: center;
+  margin: 8px 0;
+  border: none;
+  border-bottom: 1px solid;
+}
+.new-todo input:focus {
+  outline: none;
+}
+.new-todo textarea {
+  text-align: center;
+  width: 300px;
+  height: 48px;
+  padding: 4px;
+  resize: vertical;
+}
+.new-todo textarea:focus {
+  outline: none;
+}
+/*# sourceMappingURL=NewTodo.css.map */

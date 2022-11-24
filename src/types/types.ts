@@ -3,6 +3,6 @@ export type todoT = {
     title: string
     desc: string
     done: boolean
-    expiring: number
-    file?: File
+    expiring: string
+    hasFile: boolean
 }

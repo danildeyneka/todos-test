@@ -6,18 +6,22 @@
 body {
   margin: 0;
 }
-.todo {
+.wrapper {
   background-color: #fff;
   width: 500px;
   min-height: 250px;
   margin: 0 auto;
   border: 2px solid #645353;
   border-top: none;
+  text-align: center;
 }
-.todo h1 {
+.wrapper h1 {
   text-align: center;
   margin-top: 0;
   padding-top: 20px;
   color: #ee8a8a;
+}
+.wrapper__error {
+  margin: 20px 0;
 }
 /*# sourceMappingURL=App.css.map */
