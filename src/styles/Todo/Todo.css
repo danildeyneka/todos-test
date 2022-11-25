@@ -9,19 +9,33 @@ ul {
 }
 .todo__title {
   border-top: 2px solid;
+  padding-top: 8px;
+  font-size: 1.5rem;
+  width: 100%;
 }
 .todo__desc {
   padding: 0 2rem;
   word-break: break-word;
 }
 .todo__expiring {
-  padding-right: 4px;
+  margin-right: 16px;
+  color: red;
 }
-.todo__edit-btn {
+.todo__done {
+  color: green;
+}
+.todo__edit-btn,
+.todo__delete-btn {
   display: block;
-  margin: 0 auto 10px;
+  margin: 6px auto 10px;
   background-color: #fff;
   border: none;
   border-bottom: 1px solid;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.todo__delete-btn {
+  font-size: 20px;
+  color: red;
 }
 /*# sourceMappingURL=Todo.css.map */

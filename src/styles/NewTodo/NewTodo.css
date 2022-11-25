@@ -9,6 +9,9 @@
   border: none;
   border-bottom: 1px solid;
 }
+.new-todo input[type=file] {
+  display: none;
+}
 .new-todo input:focus {
   outline: none;
 }
@@ -21,5 +24,8 @@
 }
 .new-todo textarea:focus {
   outline: none;
+}
+.new-todo__file-upload {
+  margin-bottom: 8px;
 }
 /*# sourceMappingURL=NewTodo.css.map */
